@@ -31,9 +31,23 @@ HTTP протокол (HyperText Transfer Protocol «протокол перед
 pip install -f requrements.txt
 ```
 
+## Testing
+```bash
+pyest -v
+```
+
+## Tests covering
+```bash
+pytest -v --cov-report html --cov=./ tests/
+```
+
 
 ## Documentation
 
 fastapi: https://fastapi.tiangolo.com/uk/
 
 uvicorn:    https://www.uvicorn.org/
+
+pytest: https://docs.pytest.org/en/stable/how-to/usage.html
+
+pytest-cov: https://pytest-cov.readthedocs.io/en/latest/reporting.html
